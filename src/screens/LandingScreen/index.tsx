@@ -90,9 +90,11 @@ class Landing extends React.Component<Props> {
     public renderPlatformInfoBlock() {
         return (
             <div className="pg-landing-screen__platform-info">
+                    
+              {/*//comment out for later use  
                 <div className="pg-landing-screen__platform-info__wrap">
                     <div className="pg-landing-screen__platform-info__wrap__item">
-                        <span>{this.translate('page.body.landing.platformInfo.item.first.value')}</span>
+                        <span>{this.translate('page.body.landing.platformInfo.item.first.value')}</span>   
                         <span>{this.translate('page.body.landing.platformInfo.item.first.title')}</span>
                     </div>
                     <div className="pg-landing-screen__platform-info__wrap__item">
@@ -103,8 +105,8 @@ class Landing extends React.Component<Props> {
                         <span>{this.translate('page.body.landing.platformInfo.item.third.value')}</span>
                         <span>{this.translate('page.body.landing.platformInfo.item.third.title')}</span>
                     </div>
-                </div>
-            </div>
+                </div> */}
+            </div> 
         );
     }
 
